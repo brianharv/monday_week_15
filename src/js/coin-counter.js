@@ -155,3 +155,24 @@ const multiplier = (InputToMultiplyBy) => {
     return numberToMultiplyBy * numberToMultiply;
   }
 }
+
+//brian - shame shame 
+const changeMaker = (input) => {
+  return (denoms) => {
+    return (denoms / input)
+  }
+}
+
+const halfDollars = changeMaker(50)
+halfDollars(400) 
+
+//donny
+const cCounter = (input) => {
+  return (value) => {
+    return value / input;
+  }
+}
+const pennies = cCounter(.01); 
+const nickels = cCounter(.05);
+const dimes = cCounter(.10);
+const quarters = cCounter(.25); // const quarters(#(is input)) takes input as argumentconst Sentance = - -= = ()input=>{}return()Cyourname{}return ``${}}input! you silly !${}yourname!mean=mean+>=>
